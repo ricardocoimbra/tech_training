@@ -1,12 +1,17 @@
 {
-  "name": "backend",
+  "name": "backend-tech-training",
   "version": "1.0.0",
-  "description": "## Semana 1",
+  "description": "Backend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0",
+    "sequelize-cli": "^6.4.1"
+  }
 }
